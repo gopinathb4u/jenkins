@@ -16,7 +16,7 @@ public class JenkinsMavenSpringBootWebappSampleApplicationTests {
 	}
 	@Test
 	public void failTest() {
-		Assert.assertTrue(false);
+		Assert.assertTrue(false); 
 	}
 	
 	
