@@ -1,0 +1,12 @@
+pipeline {
+	agent any
+	
+	stages('Compile Stages') {
+		steps {
+			withMaven(maven: 'maven-3.2.3') {
+				bat 'mvn clean compile'
+			}
+		}
+	} 
+	
+}
